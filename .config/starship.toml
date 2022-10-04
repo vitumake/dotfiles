@@ -26,7 +26,7 @@ truncation_length = 5
 format = "  [$path]($style)[$lock_symbol]($lock_style) "
 
 [git_branch]
-format = "[$symbol$branch]($style)"
+format = "[$symbol$branch]($style) "
 symbol = " שׂ "
 style = "bold yellow"
 
@@ -39,17 +39,17 @@ format = '[\($state( $progress_current of $progress_total)\)]($style) '
 
 [git_status]
 conflicted = "ﲅ "
-ahead = "祥 ×${count}"
-behind = "精 ×${count}"
-diverged = " ×${ahead_count} 精 ×${behind_count}"
-untracked = " ×${count}"
+ahead = "祥 × ${count}"
+behind = "精 × ${count}"
+diverged = " × ${ahead_count} 精 ×${behind_count}"
+untracked = " × ${count}"
 stashed = " "
-modified = " ×${count}"
-staged = " ×${count}"
-renamed = "凜 ×${count}"
-deleted = " ×${count}"
+modified = " × ${count}"
+staged = " × ${count}"
+renamed = "凜 × ${count}"
+deleted = " × ${count}"
 style = "bright-white"
-format = "$all_status$ahead_behind"
+format = "$all_status $ahead_behind "
 
 [hostname]
 ssh_only = false
