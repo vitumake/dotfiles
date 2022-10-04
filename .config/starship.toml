@@ -26,7 +26,7 @@ truncation_length = 5
 format = "  [$path]($style)[$lock_symbol]($lock_style) "
 
 [git_branch]
-format = " [$symbol$branch]($style) "
+format = "[$symbol$branch]($style)"
 symbol = " שׂ "
 style = "bold yellow"
 
