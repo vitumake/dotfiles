@@ -39,17 +39,17 @@ format = '[\($state( $progress_current of $progress_total)\)]($style) '
 
 [git_status]
 conflicted = "ﲅ "
-ahead = "祥 × ${count}"
-behind = "精 × ${count}"
-diverged = " × ${ahead_count} 精 ×${behind_count}"
-untracked = " × ${count}"
+ahead = "${count}祥 "
+behind = "${count}精 "
+diverged = "${ahead_count} ${behind_count}精"
+untracked = "${count} "
 stashed = " "
-modified = " × ${count}"
-staged = " × ${count}"
-renamed = "凜 × ${count}"
-deleted = " × ${count}"
-style = "bright-white"
-format = "$all_status $ahead_behind "
+modified = "${count} "
+staged = "${count} "
+renamed = "${count}凜 "
+deleted = "${count} "
+style = "bright-white "
+format = "$all_status $ahead_behind"
 
 [hostname]
 ssh_only = false
@@ -74,9 +74,10 @@ disabled = false
 disabled = false
 
 [python]
-format = "[$symbol$version]($style) "
+format = "[$symbol $version]($style) "
 symbol = ""
 style = "bold green"
+pyenv_prefix = "env"
 
 [rust]
 format = "[$symbol$version]($style) "
