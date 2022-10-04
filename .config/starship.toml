@@ -5,53 +5,13 @@ $all[﬌ ](238)$character"""
 [battery]
 full_symbol = ""
 charging_symbol = ""
-style = "bold green"
 
 
 #Battery
 [[battery.display]]
 threshold = 99
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 95
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 85
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 75
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 65
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 55
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 45
 discharging_symbol = ""
-
-[[battery.display]]
-threshold = 35
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 25
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 15
-discharging_symbol = ""
-
-[[battery.display]]
-threshold = 5
-discharging_symbol = ""
+style = "bold green"
 
 [character]
 success_symbol = "[﫠](bold green) "
