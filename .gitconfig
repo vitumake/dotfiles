@@ -1,0 +1,9 @@
+[user]
+	name = markus
+	email = mag3768@gmail.com
+[color]
+    ui = true
+[color "status"]
+    changed = red bold
+    untracked = red bold
+    added = green bold
