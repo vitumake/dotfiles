@@ -11,8 +11,14 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:qa!
+|2,0,1666594111,,"qa!"
+:qa
+|2,0,1666594106,,"qa"
+:q<
+|2,0,1666594104,,"q<"
 :x
-|2,0,1664905272,,"x"
+|2,0,1666594048,,"x"
 :w
 |2,0,1664856944,,"w"
 
@@ -25,25 +31,51 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	# with '#' will be ignored, and an empty message aborts the commit.
-|3,0,1,1,1,0,1664856935,"# with '#' will be ignored, and an empty message aborts the commit."
+""1	CHAR	0
+	
+	
+|3,1,1,0,2,0,1666594024,"",""
 "2	LINE	0
+	# with '#' will be ignored, and an empty message aborts the commit.
+|3,0,2,1,1,0,1664856935,"# with '#' will be ignored, and an empty message aborts the commit."
+"3	LINE	0
 	# Please enter the commit message for your changes. Lines starting
-|3,0,2,1,1,0,1664856930,"# Please enter the commit message for your changes. Lines starting"
-""-	CHAR	0
+|3,0,3,1,1,0,1664856930,"# Please enter the commit message for your changes. Lines starting"
+"-	CHAR	0
 	#
-|3,1,36,0,1,0,1664856935,"#"
+|3,0,36,0,1,0,1664856935,"#"
 
 # File marks:
-'0  1  31  ~/.git/COMMIT_EDITMSG
-|4,48,1,31,1664905272,"~/.git/COMMIT_EDITMSG"
-'1  1  13  ~/.cache/.git/COMMIT_EDITMSG
-|4,49,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
+'0  1  0  ~/.git/COMMIT_EDITMSG
+|4,48,1,0,1666594111,"~/.git/COMMIT_EDITMSG"
+'1  1  16  ~/.git/COMMIT_EDITMSG
+|4,49,1,16,1666594048,"~/.git/COMMIT_EDITMSG"
+'2  1  31  ~/.git/COMMIT_EDITMSG
+|4,50,1,31,1664905272,"~/.git/COMMIT_EDITMSG"
+'3  1  31  ~/.git/COMMIT_EDITMSG
+|4,51,1,31,1664905272,"~/.git/COMMIT_EDITMSG"
+'4  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,52,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1666594111,"~/.git/COMMIT_EDITMSG"
+-'  1  16  ~/.git/COMMIT_EDITMSG
+|4,39,1,16,1666594048,"~/.git/COMMIT_EDITMSG"
 -'  1  31  ~/.git/COMMIT_EDITMSG
 |4,39,1,31,1664905272,"~/.git/COMMIT_EDITMSG"
+-'  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
+-'  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
+-'  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
+-'  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
+-'  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
+-'  1  13  ~/.cache/.git/COMMIT_EDITMSG
+|4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
 -'  1  13  ~/.cache/.git/COMMIT_EDITMSG
 |4,39,1,13,1664856957,"~/.cache/.git/COMMIT_EDITMSG"
 -'  1  13  ~/.cache/.git/COMMIT_EDITMSG
@@ -52,11 +84,11 @@
 # History of marks within files (newest to oldest):
 
 > ~/.git/COMMIT_EDITMSG
-	*	1664905270	0
-	"	1	31
-	^	1	32
-	.	1	32
-	+	1	32
+	*	1666594107	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > ~/.cache/.git/COMMIT_EDITMSG
 	*	1664856955	0
